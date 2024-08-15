@@ -1,3 +1,4 @@
+import 4-7
 def show_how_it_works(func):
     def my_function(*args, **kwargs):
         print('Running function:', func.__name__)
@@ -11,4 +12,5 @@ def show_how_it_works(func):
 def add_two_numbers(a, b):
     return a + b
 
-decolated_func = show_how_it_worksz(add_two_numbers)
+decolated_func = show_how_it_worksz(circle_kei_a)
+decolated_func(2)
